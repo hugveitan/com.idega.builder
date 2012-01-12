@@ -3,12 +3,12 @@
   <parent>
   	<groupId>com.idega.block.platform</groupId>
   	<artifactId>com.idega.block.platform</artifactId>
-  	<version>4.1.3-SNAPSHOT</version>
+  	<version>5.0.0-SNAPSHOT</version>
   </parent>
   <packaging>jar</packaging>
   <groupId>com.idega.block.platform</groupId>
   <artifactId>com.idega.builder</artifactId>
-  <version>4.1.3-SNAPSHOT</version>
+  <version>5.0.0-SNAPSHOT</version>
   <name>idegaWeb Builder</name>
   <scm>
     
@@ -74,7 +74,7 @@
     </dependency>
     <dependency>
       <groupId>com.idega.block.platform</groupId>
-      <artifactId>com.idega.slide</artifactId>
+      <artifactId>com.idega.jackrabbit</artifactId>
     </dependency>
     <dependency>
       <groupId>com.idega.block.platform</groupId>
@@ -93,6 +93,10 @@
       <artifactId>jtidy</artifactId>
       <version>4aug2000r7-dev-m1.0</version>
       <type>jar</type>
+    </dependency>
+    <dependency>
+      <groupId>net.sourceforge.htmlcleaner</groupId>
+      <artifactId>htmlcleaner</artifactId>
     </dependency>
   </dependencies>
 </project>
